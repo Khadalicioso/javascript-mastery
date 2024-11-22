@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>© Khadalicioso Superhero Search</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="main-wrapper">
+      <div class="app">
+        <div class="app-header">
+          <h2 class="app-header-title">SUPER<span>HERO</span></h2>
+          <form class="app-header-search">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Search your superhero here ..."
+              name="search"
+            />
+            <button type="submit" class="search-btn">
+              <i class="fas fa-search"></i>
+            </button>
+            <div class="search-list" id="search-list">
+              <!-- <div class="search-list-item">
+                <img src="images/thumbnail-batman.jpg" alt="" />
+                <p>Batman</p>
+              </div> -->
+            </div>
+          </form>
+        </div>
+        <div class="app-body">
+          <div class="app-body-content">
+            <div class="app-body-content-thumbnail">
+              <img src="./assets/thumbnail.jpg" />
+            </div>
+            <div class="app-body-content-list">
+              <div class="name">Batman</div>
+              <div class="app-body-tabs-head">
+                <button type="button" class="tab-head-single" data-id="1">
+                  <span>Power Stats</span>
+                </button>
+                <button type="button" class="tab-head-single" data-id="2">
+                  <span>Biography</span>
+                </button>
+                <button type="button" class="tab-head-single" data-id="3">
+                  <span>Appearance</span>
+                </button>
+                <button type="button" class="tab-head-single" data-id="4">
+                  <span>Connections</span>
+                </button>
+              </div>
+              <div class="app-body-tabs-body">
+                <ul class="tab-body-single powerstats">
+                  <li>
+                    <div>
+                      <i class="fa-solid fa-shield-halved"></i>
+                      <span>Intelligence</span>
+                    </div>
+                    <span>100</span>
+                  </li>
+                  <li>
+                    <div>
+                      <i class="fa-solid fa-shield-halved"></i>
+                      <span>Strength</span>
+                    </div>
+                    <span>26</span>
+                  </li>
+                  <li>
+                    <div>
+                      <i class="fa-solid fa-shield-halved"></i>
+                      <span>Speed</span>
+                    </div>
+                    <span>27</span>
+                  </li>
+                  <li>
+                    <div>
+                      <i class="fa-solid fa-shield-halved"></i>
+                      <span>Durability</span>
+                    </div>
+                    <span>50</span>
+                  </li>
+                  <li>
+                    <div>
+                      <i class="fa-solid fa-shield-halved"></i>
+                      <span>Power</span>
+                    </div>
+                    <span>47</span>
+                  </li>
+                  <li>
+                    <div>
+                      <i class="fa-solid fa-shield-halved"></i>
+                      <span>Combat</span>
+                    </div>
+                    <span>100</span>
+                  </li>
+                </ul>
+                <ul class="tab-body-single biography">
+                  <li>
+                    <span>Full Name</span>
+                    <span>Bruce Wayne</span>
+                  </li>
+                  <li>
+                    <span>Alter-Egos</span>
+                    <span>No alter egos found.</span>
+                  </li>
+                  <li>
+                    <span>Aliases</span>
+                    <span>Insider,Matches Malone</span>
+                  </li>
+                  <li>
+                    <span>Place-Of-Birth</span>
+                    <span>Crest Hill, Bristol Township; Gotham County</span>
+                  </li>
+                  <li>
+                    <span>First-Appearance</span>
+                    <span>Detective Comics #27</span>
+                  </li>
+                  <li>
+                    <span>Publisher</span>
+                    <span
+                      >DC Comics, IDW Publishing, National Comics,
+                      Publications</span
+                    >
+                  </li>
+                </ul>
+                <ul class="tab-body-single appearance">
+                  <li>
+                    <span> <i class="fas fa-star"></i> Gender </span>
+                    <span>Male</span>
+                  </li>
+                  <li>
+                    <span> <i class="fas fa-star"></i> Race </span>
+                    <span>Human</span>
+                  </li>
+                  <li>
+                    <span> <i class="fas fa-star"></i> Height </span>
+                    <span>6'2</span>
+                  </li>
+                  <li>
+                    <span> <i class="fas fa-star"></i> Weight </span>
+                    <span>210 lb</span>
+                  </li>
+                  <li>
+                    <span> <i class="fas fa-star"></i> Eye-Color </span>
+                    <span>Blue</span>
+                  </li>
+                  <li>
+                    <span> <i class="fas fa-star"></i> Hair-Color </span>
+                    <span>Black</span>
+                  </li>
+                </ul>
+                <ul class="tab-body-single connections">
+                  <li>
+                    <span>Group--Affiliation</span>
+                    <span
+                      >Batman Family, Batman Incorporated, Justice League,
+                      Outsiders, Wayne Enterprises, Club of Heroes, formerly
+                      White Lantern Corps, Sinestro Corps</span
+                    >
+                  </li>
+                  <li>
+                    <span>Relatives</span>
+                    <span
+                      >Damian Wayne (son), Dick Grayson (adopted son), Tim Drake
+                      (adopted son), Jason Todd (adopted son), Cassandra Cain
+                      (adopted ward) Martha Wayne (mother, deceased), Thomas
+                      Wayne (father, deceased), Alfred Pennyworth (former
+                      guardian), Roderick Kane (grandfather, deceased),
+                      Elizabeth Kane (grandmother, deceased), Nathan Kane
+                      (uncle, deceased), Simon Hurt (ancestor), Wayne
+                      Family</span
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
