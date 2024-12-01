@@ -1,6 +1,6 @@
 # JavaScript Mastery Projects Collection 🚀
 
-A comprehensive collection of JavaScript projects designed to help developers master web development through hands-on practice. This repository contains various projects ranging from simple utilities to complex games and applications.
+A comprehensive collection of JavaScript projects designed to help me master web development through hands-on practice. This repository contains various projects ranging from simple utilities to complex games and applications.
 
 ## 🎮 Games
 - **2048 Game**: Classic sliding number puzzle game
