@@ -76,7 +76,3 @@ Contributions are welcome! Feel free to:
 
 ## License
 This project is open source and available under the MIT License.
-
-## Acknowledgments
-- Thanks to all contributors who have helped build these projects
-- Special thanks to the web development community for inspiration and resources
