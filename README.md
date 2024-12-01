@@ -56,7 +56,7 @@ A comprehensive collection of JavaScript projects designed to help me master web
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/Javascript__Mastery.git
+   git clone https://github.com/Khadalicioso/javascript_mastery_projects_collection.git
    ```
 2. Navigate to any project directory
 3. Open the `index.html` file in your browser
