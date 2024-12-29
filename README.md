@@ -1,4 +1,4 @@
-# JavaScript Mastery Projects Collection 🚀
+# JavaScript Mastery 🚀
 
 A comprehensive collection of JavaScript projects designed to help me master web development through hands-on practice. This repository contains various projects ranging from simple utilities to complex games and applications.
 
@@ -56,7 +56,7 @@ A comprehensive collection of JavaScript projects designed to help me master web
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Khadalicioso/javascript-mastery-projects-collection.git
+   git clone https://github.com/Khadalicioso/javascript-mastery.git
    ```
 2. Navigate to any project directory
 3. Open the `index.html` file in your browser
